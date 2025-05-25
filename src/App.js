@@ -73,7 +73,6 @@ function App() {
 						<button onClick={QrGenerate}>Generate QR Code</button>
 					</div>
 				)}
-
 				<div className="qr-area">
 					{showQR && (
 						<div>
@@ -93,6 +92,11 @@ function App() {
 						</div>
 					)}
 				</div>
+				<br />
+				<br />
+				<span className="bottom-span">
+					Developed by Mahabul Alom Santo | 2025
+				</span>
 			</div>
 		</div>
 	);

@@ -3,11 +3,12 @@
 	background-color: #bad8b6;
 	width: 40%;
 	margin: 3% auto 0 auto;
-	padding: 50px 50px 40px 50px;
+	padding: 50px 50px 20px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-radius: 30px;
+	position: relative;
 }
 
 h1 {
@@ -49,4 +50,9 @@ input {
 	min-height: 30px;
 	width: 150%;
 	font-size: 25px;
+}
+
+.bottom-span {
+	position: absolute;
+	bottom: 10px;
 }
